@@ -36,21 +36,12 @@ def arithmetic(a, difference, n):
     sequence = [a+difference*x for x in range(n)]
     #Calculates its sum
     return sum(sequence)
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> 28c2dc7a4dfe95e864dcdd904f54aff679613883
 def geometric(a, ratio, n):
     '''Calculates the sum of a geometric serie of n elements.
        A geometric sequence is of the form: a, a*r, a*r*r, a*r*r*r,...
        n is the number of elements in the sequence.'''
-<<<<<<< HEAD
+
     #Use the sum formula:
     return a*(1-ratio**n)/(1-ratio)
-=======
-    #Get the geometric sequence
-    sequence = [a*(ratio**x) for x in range(n)]
-    #Calculates its sum
-    return sum(sequence)
->>>>>>> 28c2dc7a4dfe95e864dcdd904f54aff679613883
+
